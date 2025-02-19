@@ -287,5 +287,3 @@ We calculate and display the accuracy and out-of-sample error for each model. Th
     ## Levels: A B C D E
 
 Here, we use the Random Forest model to predict the “classe” variable for the 20 test cases in the testcsv dataset. These predictions will be submitted to the course project prediction quiz.
-
-// add bootstrap table styles to pandoc tables function bootstrapStylePandocTables() { $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed'); } $(document).ready(function () { bootstrapStylePandocTables(); }); $(document).ready(function () { window.buildTabsets("TOC"); }); $(document).ready(function () { $('.tabset-dropdown > .nav-tabs > li').click(function () { $(this).parent().toggleClass('nav-tabs-open'); }); }); (function () { var script = document.createElement("script"); script.type = "text/javascript"; script.src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML\_HTMLorMML"; document.getElementsByTagName("head")\[0\].appendChild(script); })();
