@@ -115,7 +115,7 @@ mod_trees <- train(classe ~ ., data = train, method = "rpart", trControl = contr
 fancyRpartPlot(mod_trees$finalModel)
 ```
 
-![](weight_lifting_classification_files/figure-markdown_github/unnamed-chunk-7-1.png)
+![](weight_lifting_classification_files/figure-html/unnamed-chunk-7-1.png)
 \# Make predictions using the Decision Tree model
 
 ``` r
