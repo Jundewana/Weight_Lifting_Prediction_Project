@@ -90,7 +90,7 @@ mod_trees <- train(classe ~ ., data = train, method = "rpart", trControl = contr
 
 # Plot the decision tree
 fancyRpartPlot(mod_trees$finalModel)
-# (gambar plotnya ada di file ./weight_lifting_classification_files/unnamed-chunk-7-1.png)
+![Decision Tree Plot](./weight_lifting_classification_files/unnamed-chunk-7-1.png)
 
 pred_trees <- predict(mod_trees, valid)
 cmtrees <- confusionMatrix(pred_trees, factor(valid$classe))
